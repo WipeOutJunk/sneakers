@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    -wibkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+  
+}
+header{
+    background-color: rgb(9, 12, 12);
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.picture {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+.underbase{
+    background-color: rgb(9, 12, 12);
+    height: 70px;
+    margin-bottom: 0%;
+}
+.based{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.first_info{
+
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    margin-top:300px ;
+}
+.first_into{
+    
+    background-color: rgba(37, 41, 41, 0.918);
+   border-radius: 20px;
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top:200px ;
+
+
+}
+.first_into p {
+    
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px;
+    margin: left 20px;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 50px;
+    color: #030202;
+}
+.text_one {
+    padding:60px;
+    margin-left:30px ;
+    margin-right:15px ;
+}
+.introsecond {
+    text-align: center;
+    font-size: 50px;
+    color: #030202;
+}
+.introfirst {
+    text-align: center;
+    font-size: 50px;
+    color: #030202;
+}
+.second_info {
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top:300px ;
+}
+.second_into {
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+     max-width: 1300px;
+     height:auto ;
+     margin: 0 auto;
+     margin-left: 15px;
+     margin-top:150px ;
+     padding:50px;
+}
+.second_into p {
+    color: #000000;
+    font-size: 30px;
+    padding: 20px;
+    margin: left 20px;
+
+}
+span {
+    color: #f37fda;
+}
+.primer {
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+    
+}
+.sneakers {
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+}
+.nike {
+    width:500px ;
+    height:600px ;
+    float: right;
+    
+}
+.aboutnike {
+   
+
+}
+.aboutnike p {
+    color: #000000;
+    font-size: 25px;
+    padding: 20px;
+    margin: left 20px;
+}
+.intonike {
+    border-radius: 20px;
+     max-width: 1300px;
+     height:auto ;
+     margin: 0 auto;
+     margin-left: 15px;
+}
+.zero {
+    width: 50px;
+}
