@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    -wibkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+   scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+  background-image: url(backk.png);
+  background-size:15%;
+}
+span {
+    color: #f37fda;
+}
+.zero{
+    width:50px;
+    height:1px ;
+}
+header{
+    position: sticky;
+    top:0;
+    z-index: 3;
+    background-color: rgb(9, 12, 12);
+    height: 130px;
+    width: auto;
+   
+}
+.name {
+    width: 800px;
+}
+.picture {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    height: 125px;
+    
+    
+}
+
+.base {
+    height: 65px;
+}
+.underbase{
+    background-color: rgb(9, 12, 12);
+    height: 30px;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+.based{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    height: 40px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+	width: auto;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+	transition: 0.2s;
+
+}
+nav ul li:hover {
+    list-style-type: none;
+	text-shadow: -1px -1px 3px white, 0 0 3em white;
+	transition: 0.2s;
+}
+nav ul li a {
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.aut {
+    width: auto;
+    margin:0 auto;
+    background-color: rgb(9, 12, 12) ;
+    color:#ffffff;
+    text-align: center;
+    height: 22px;
+}
+.aut a {
+    text-decoration: none;
+    color:#ffffff;
+}
+.aut a:hover {
+    list-style-type: none;
+	text-shadow: -1px -1px 3px white, 0 0 3em white;
+	transition: 0.2s;  
+}
+.true {
+    color: #f37fda;
+    font-size: 37px;
+}
+section {
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    margin-top:250px ;
+    margin-bottom: 150px;
+    background-color: rgb(9 12 12 / 98%);
+    border-radius: 20px;
+}
+.container {
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container p {
+    margin-top:5px;
+    color:#ffffff;
+    font-size: 25px;
+    padding:17px;
+}
+.container a {
+    text-decoration: none;
+    color: #f37fda;
+}
+.container a:hover {
+    list-style-type: none;
+	text-shadow: 1px 1px 1px #f37fda, 0 0 9em rgba(255, 255, 255, 0.315);
+	transition: 0.2s;
+}
+.onez {
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    margin-top:150px ;
+    margin-bottom: 200px;
+    background-color: rgba(217, 223, 223, 0);
+    border-radius: 20px;
+}
+.container_one {
+    display: flex;
+    max-width: 1300px;
+    height:auto ;
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.intoo {
+    padding: 17px;
+    list-style-type: none;
+    background-color: rgb(9 12 12 / 98%);
+    border-radius: 20px;
+    height: 600px;
+    position: relative;
+    width: auto;
+}
+img {
+    max-width:300px ;
+    max-height: 300px;
+    border-radius:5px ;
+
+}
+.intoo p {
+    color: #ffffff;
+}
+
+.name {
+    color: #f37fda;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.name:hover {
+    list-style-type: none;
+	text-shadow: 1px 1px 1px #f37fda, 0 0 9em rgba(255, 255, 255, 0.315);
+	transition: 0.2s;
+}
+.price {
+ position: absolute;
+ bottom:0;
+ margin-bottom: 15px;
+}
+.white {
+    color: #ffffff;
+}
+.god {
+    color:#ffa013;
+    font-size:20px;
+}
+footer{
+    position: relative;
+    padding: 70px 0;
+    background-color: rgb(9, 12, 12);
+}
+footer p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+div.scrollup {
+    border: 1px solid;
+    border-color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+    position: fixed; /* фиксированная позиция */
+    background-color: #ffffff; /* цвет заднего фона */
+    right: 30px; /* расстояние от правого края */
+    bottom: 40px; /* расстояние от нижнего края */
+    padding: 4px 10px; /* отступы до содержимого блока */
+    font-size: 20px; /* размер шрифта (иконки) */
+    border-radius: 50px; 
+    text-align: center; 
+  }
+  div.scrollup a {
+    text-decoration: none;
+    color:#000000;
+  }
+  div.scrollup:hover {
+    border: 2px solid ;
+    border-color: #000000;
+    background-color: rgba(255, 255, 255, 0.795); /* цвет заднего фона при наведении */
+    text-shadow: 0px 1px 1px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0);
+	transition: 0.175s;
+  }
+  .butt {
+      margin-top:15px;
+      width:100px;
+      height: 25px;
+      background: #f37fda;
+      border-radius: 20px;
+      text-align: center;
+  }
+  .butt a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .butt:hover {
+    list-style-type: none;
+    background: #fc5cd9;
+	text-shadow: 0px 0px 0px #fffeff, 1 1 100em rgb(255, 255, 255);
+	transition: 0.4s;
+    border: solid 1px;
+  
+  }
