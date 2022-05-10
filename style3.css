@@ -75,15 +75,13 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
-footer{
-    position: relative;
-    padding: 70px 0;
-    background-color: rgb(9, 12, 12);
-}
-footer p{
+.introfirst {
     text-align: center;
-    color: rgb(255, 255, 255);
+    font-size: 50px;
+    color: #030202;
+    margin-top: 200px;
 }
+
 .fir {
     max-width: 1200px;
     height:auto ;
@@ -159,6 +157,13 @@ footer p{
     background: #fc5cd9;
 	text-shadow: 0px 0px 0px #fffeff, 1 1 100em rgb(255, 255, 255);
 	transition: 0.4s;
-    
-  
+}
+footer{
+    position: relative;
+    padding: 70px 0;
+    background-color: rgb(9, 12, 12);
+}
+footer p{
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
