@@ -9,6 +9,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style1.css">
     <link rel="icon" href="logo.png" type="image/png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         
+        $(window).scroll(function(){
+        if ($(this).scrollTop() > 1200) {
+        $('.scrollup').fadeIn();
+        } else {
+        $('.scrollup').fadeOut();
+        }
+        });
+         
+        $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 20);
+        return false;
+        });
+         
+        });
+        </script>
 </head>
 <body>
     <header>
@@ -36,9 +55,11 @@
     <div id="about" class="aut">
             <a href="index.html">HOME PAGE</a>
     </div>
-    <section  >
+    <main>
+        <p class="introfirst"><b>Всех приветсвуем!</b></p>
+    <section >
      <div class="container">
-         <p><span class="true">Всех приветсвуем!</span><br><br>
+        <p>
         Мы комнада из <span>NOTLIKEEVERYONE </span> и это наш собственный аутлет.<br><br>
         Что же это? <span>Аутлет</span>- это формат магазина или интернет-магазина, специализирующегося на продаже одежды известных брендов со значительными скидками.<br><br>
         Так как нам приходиться заказывать большое количество кроссовок для кастомизации обуви, то мы уже нашли <span>надёжных</span> и <span>проверенных</span> поставщиков из Европы.<br><br>
@@ -65,7 +86,7 @@
                     Наша цена: <span class="god">от 34'490₽</span>
                 </span>
                 <br>
-              <div class="butt"><a href="index3.html">Купить</a></div>
+              <div class="buy"><a href="index3.html">Купить</a></div>
             </div>
            </div>
            <div class="intoo">
@@ -81,7 +102,7 @@
                 Наша цена: <span class="god">от 34'490₽</span>
             </span>
             <br>
-              <div class="butt"><a href="index3.html">Купить</a></div>
+              <div class="buy"><a href="index3.html">Купить</a></div>
             </div>
            </div>
            <div class="intoo">
@@ -103,7 +124,7 @@
                 Наша цена: <span class="god">от 16'490₽</span>
              </span>
              <br>
-              <div class="butt"><a href="index3.html">Купить</a></div>
+              <div class="buy"><a href="index3.html">Купить</a></div>
          </div>
         </div>
        </div>
@@ -130,7 +151,7 @@
                     Наша цена: <span class="god">от 8'990₽</span>
                  </span>
                  <br>
-              <div class="butt"><a href="index3.html">Купить</a></div>
+              <div class="buy"><a href="index3.html">Купить</a></div>
              </div>
             </div>
             <div class="intoo">
@@ -152,7 +173,7 @@
         
              </span>
              <br>
-                 <div class="butt"><a href="index3.html">Купить</a></div>
+                 <div class="buy"><a href="index3.html">Купить</a></div>
              </div>
             </div>
             <div class="intoo">
@@ -169,27 +190,28 @@
                   <div class="price">
               <span>
                 Цена в других магазинах: <span class="white">11'000₽</span><br>
-                Наша цена: <span class="god">от 7'490₽</span>
+                Наша цена: от <span class="god"> 7'490₽</span>
               </span>
               <br>
-              <div class="butt"><a href="index3.html">Купить</a></div>
+              <div class="buy"><a href="index3.html">Купить</a></div>
               
           </div>
          </div>
         </div>
      </section>
      <div class="zero"  id="models"></div>
+     <p class="introfirst"><b>Как заказать пару и всё о доставке</b></p>
     <section >
      <div class="container">
          <p>
-            <span class="true">Как заказать пару и всё о доставке</span><br><br>
             Чтобы заказать выбранную вами пару вам достаточно заполнить форму, написать нам на почту, но а лучше написать нам в instagram, который указан в разделе <a href="index3.html">КОНТАКТЫ</a>.<br><br>
             Доставка происходит по всей России с возможностью заказа курьером.<br><br>
-            Мы продаём только <span>ОРИГИНАЛЬНЫЕ</span> кроссовки, всё ценообразование зависит от размера и редкости пары.<br><br>
-            <span>"наличие именного вашего размера и цену уточняйте через форму или через direct в instagram, всегда ждём вашего сообщения"</span>
+            Мы продаём только <span>ОРИГИНАЛЬНЫЕ</span> кроссовки, всё ценообразование зависит от размера и редкости пары.<br>
+            <span class="ps">"наличие именного вашего размера и цену уточняйте через форму или через direct в instagram, всегда ждём вашего сообщения"</span>
          </p>
      </div>
     </section>
+</main>
      <footer>
         <p>mail: imperia791@gmail.com © 2022 </p>
         <p>inst: @_o_wipeout_o_</p>
@@ -197,5 +219,4 @@
     <div class="scrollup">
         <a href="#top">^</a>
       </div>
-
 </body>
