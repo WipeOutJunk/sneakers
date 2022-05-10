@@ -113,6 +113,12 @@ section {
     background-color: rgb(9 12 12 / 98%);
     border-radius: 20px;
 }
+.introfirst {
+    text-align: center;
+    font-size: 50px;
+    color: #030202;
+    margin-top: 200px;
+}
 .container {
     max-width: 1300px;
     height:auto ;
@@ -162,7 +168,7 @@ section {
     width: auto;
 }
 img {
-    max-width:700px ;
+    max-width:900px ;
     max-height: 300px;
     border-radius:5px ;
 
@@ -193,6 +199,29 @@ img {
     color:#ffa013;
     font-size:20px;
 }
+.ps {
+    font-size: 12px;
+}
+.buy {
+    margin-top:15px;
+    width:100px;
+    height: 25px;
+    background: #f37fda;
+    border-radius: 20px;
+    text-align: center;
+}
+.buy a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.buy:hover {
+  list-style-type: none;
+  background: #fc5cd9;
+  text-shadow: 0px 0px 0px #fffeff, 1 1 100em rgb(255, 255, 255);
+  transition: 0.4s;
+  border: solid 1px;
+
+}
 footer{
     position: relative;
     padding: 70px 0;
@@ -215,6 +244,7 @@ div.scrollup {
     font-size: 20px; /* размер шрифта (иконки) */
     border-radius: 50px; 
     text-align: center; 
+    opacity:0.9;
   }
   div.scrollup a {
     text-decoration: none;
@@ -226,24 +256,4 @@ div.scrollup {
     background-color: rgba(255, 255, 255, 0.795); /* цвет заднего фона при наведении */
     text-shadow: 0px 1px 1px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0);
 	transition: 0.175s;
-  }
-  .butt {
-      margin-top:15px;
-      width:100px;
-      height: 25px;
-      background: #f37fda;
-      border-radius: 20px;
-      text-align: center;
-  }
-  .butt a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  .butt:hover {
-    list-style-type: none;
-    background: #fc5cd9;
-	text-shadow: 0px 0px 0px #fffeff, 1 1 100em rgb(255, 255, 255);
-	transition: 0.4s;
-    border: solid 1px;
-  
   }
